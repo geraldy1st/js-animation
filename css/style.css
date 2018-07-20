@@ -20,7 +20,7 @@ h1 {
 }
 .btn {
     width:100%;
-    background:#00c3ff;
+    background:rgba(38, 95, 218,.7);
     color:#fff;
     margin-top:2em;
     border:none;
@@ -28,6 +28,10 @@ h1 {
     padding:1em;
     font-size:1.2em;
     cursor:pointer;
+    transition: .1s;
+}
+.btn:hover{
+    background:rgba(38, 95, 218,1);
 }
 p {
     color:#808080;
